@@ -1,0 +1,151 @@
+/* .container{
+    grid-template-columns: auto auto;
+    display: grid;
+    gap: 20px;
+   
+
+}
+.box1{
+    grid-column: 1/3;
+    height: 100px;
+    background-color: aqua;
+    margin-bottom: 10px;
+}
+.box2{
+    grid-column: 1/3;
+    height: 200px;
+    background-color: rgb(21, 54, 54);
+    margin-bottom: 10px;
+}
+.box3{
+    height: 150px;
+    background-color: rgb(123, 194, 9);
+    margin-bottom: 10px;
+}
+.box4{
+    height: 150px;
+    background-color: rgb(29, 5, 116);
+    margin-bottom: 10px;
+}
+.box5{
+   height: 150px ;
+   width: 400px;
+
+   
+    background-color: rgb(201, 64, 155);
+    margin-bottom: 10px;
+}
+.box6{
+    height: 250px;
+    width: 400px;
+
+    
+    background-color: rgb(15, 43, 12);
+    margin-bottom: 10px;
+}
+
+
+.con1{
+    height: 250px;
+    width: 250px;
+    background-color: blue;
+    margin: 100px 0 0 400px;
+    transition: 1s;
+
+}
+.con1:hover{
+    transform: rotate(360deg);
+}
+.con2{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(36, 36, 43);
+    margin-top: 30px;
+    margin: 100px 0 0 400px;
+    transition: 1s;
+}
+.con2:hover{
+    transform: skew(60deg);
+}
+.con3{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(10, 10, 61);
+    margin-top: 30px;
+    margin: 100px 0 0 400px;
+    transition: 1s;
+}
+.con3:hover{
+    transform: scale(1.5);
+}
+.con4{
+    height: 250px;
+    width: 250px;
+    background-color: rgba(0, 255, 136, 0.171);
+    margin-top: 30px;
+    margin: 100px 0 0 400px;
+    transition: 1s;
+}
+.con4:hover{
+    transform: translate(-100px,-100px);
+} */
+
+/* *{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-image: url(pic/background.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 1350px;
+}
+.bar{
+    color: white;
+    padding-top: 20px;
+    padding-left: 70px;
+    font-size: 25px;
+}
+a{
+    margin-left: 20px; 
+    cursor: pointer;
+    transition: 1s;
+}
+a:hover{
+    color: rgb(63, 126, 126);
+}
+.head1{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+.para{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.button{
+    margin: 20px;
+    padding:20px;
+}
+.button1{
+    margin-left: 300px;
+} */
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
